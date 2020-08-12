@@ -5,6 +5,7 @@ import torchvision.datasets as dsets
 import torchvision.transforms as transforms
 import visdom
 
+# network error로 인해 visdom이 동작하지 않음. (추후 점검)
 ## set visdom
 vis = visdom.Visdom()
 vis.close(env='main')
